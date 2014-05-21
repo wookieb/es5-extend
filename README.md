@@ -13,33 +13,27 @@ npm install es5-extend
 
 ## Usage
 Extending all native objects (for given context)
-**extend([methods [, customDescriptor] ])**
+```
+extend([methods [, customDescriptor] ])
+```
 
 * *context* - global object with native objects
 * methods - array of methods to insert into native object
 * customDescriptor - custom options for property descriptor
 
 Extending specific object
-
-**extend.array([nativeObject [, methods [, customDescriptor ] ] ]);**
-
-**extend.boolean([nativeObject [, methods [, customDescriptor ] ] ]);**
-
-**extend.date([nativeObject [, methods [, customDescriptor ] ] ]);**
-
-**extend.error([nativeObject [, methods [, customDescriptor ] ] ]);**
-
-**extend.function([nativeObject [, methods [, customDescriptor ] ] ]);**
-
-**extend.math([nativeObject [, methods [, customDescriptor ] ] ]);**
-
-**extend.number([nativeObject [, methods [, customDescriptor ] ] ]);**
-
-**extend.object([nativeObject [, methods [, customDescriptor ] ] ]);**
-
-**extend.regExp([nativeObject [, methods [, customDescriptor ] ] ]);**
-
-**extend.string([nativeObject [, methods [, customDescriptor ] ] ]);**
+```
+extend.array([nativeObject [, methods [, customDescriptor ] ] ]);
+extend.boolean([nativeObject [, methods [, customDescriptor ] ] ]);
+extend.date([nativeObject [, methods [, customDescriptor ] ] ]);
+extend.error([nativeObject [, methods [, customDescriptor ] ] ]);
+extend.function([nativeObject [, methods [, customDescriptor ] ] ]);
+extend.math([nativeObject [, methods [, customDescriptor ] ] ]);
+extend.number([nativeObject [, methods [, customDescriptor ] ] ]);
+extend.object([nativeObject [, methods [, customDescriptor ] ] ]);
+extend.regExp([nativeObject [, methods [, customDescriptor ] ] ]);
+extend.string([nativeObject [, methods [, customDescriptor ] ] ]);
+```
 
 * nativeObject - object to extend
 * methods - array of methods to insert into native object
