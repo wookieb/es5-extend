@@ -20,15 +20,25 @@ Extending all native objects (for given context)
 * customDescriptor - custom options for property descriptor
 
 Extending specific object
+
 **extend.array([nativeObject [, methods [, customDescriptor ] ] ]);**
+
 **extend.boolean([nativeObject [, methods [, customDescriptor ] ] ]);**
+
 **extend.date([nativeObject [, methods [, customDescriptor ] ] ]);**
+
 **extend.error([nativeObject [, methods [, customDescriptor ] ] ]);**
+
 **extend.function([nativeObject [, methods [, customDescriptor ] ] ]);**
+
 **extend.math([nativeObject [, methods [, customDescriptor ] ] ]);**
+
 **extend.number([nativeObject [, methods [, customDescriptor ] ] ]);**
+
 **extend.object([nativeObject [, methods [, customDescriptor ] ] ]);**
+
 **extend.regExp([nativeObject [, methods [, customDescriptor ] ] ]);**
+
 **extend.string([nativeObject [, methods [, customDescriptor ] ] ]);**
 
 * nativeObject - object to extend
