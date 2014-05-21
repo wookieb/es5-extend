@@ -1,0 +1,33 @@
+{
+    "name": "es5-extend",
+    "version": "0.1.0",
+    "description": "Simple helper to extend object (even native) with es5-ext functions",
+    "main": "index.js",
+    "scripts": {
+        "test": "node ./node_modules/tad/bin/tad"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:wookieb/es5-extend.git"
+    },
+    "keywords": [
+        "es5",
+        "es5-ext",
+        "util",
+        "utils",
+        "utilities",
+        "extensions",
+        "extend",
+        "ecmascript"
+    ],
+    "devDependencies": {
+        "tad": "0.2.x",
+        "es5-ext": "0.10.x"
+    },
+    "author": "Łukasz Kuzyński \"wookieb\"",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/wookieb/es5-extend/issues"
+    },
+    "homepage": "https://github.com/wookieb/es5-extend"
+}
