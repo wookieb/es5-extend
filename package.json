@@ -1,6 +1,6 @@
 {
     "name": "es5-extend",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "Simple helper to extend object (even native) with es5-ext functions",
     "main": "index.js",
     "scripts": {
@@ -20,9 +20,11 @@
         "extend",
         "ecmascript"
     ],
-    "devDependencies": {
-        "tad": "0.2.x",
+    "dependencies": {
         "es5-ext": "0.10.x"
+    },
+    "devDependencies": {
+        "tad": "0.2.x"
     },
     "author": "Łukasz Kuzyński \"wookieb\"",
     "license": "MIT",
