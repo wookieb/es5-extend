@@ -4,16 +4,15 @@
 Simple helper for extending native or other objects with es5-ext functions
 
 ## Installation
-es5-extend does not bundle es5-ext package itself so you need to do it manually
 
 ```
-npm install es5-ext
 npm install es5-extend
 ```
 
 ## Usage
 Extending all native objects (for given context)
 ```
+var extend = require('es5-extend');
 extend([methods [, customDescriptor] ])
 ```
 
